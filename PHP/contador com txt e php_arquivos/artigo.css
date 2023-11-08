@@ -1,0 +1,150 @@
+.sql .de1, .sql .de2 {font-family: 'Courier New', Courier, monospace; font-weight: normal;color: #000020;}
+.sql  {color: #000066; font-size:12px; border: 1px solid #d0d0d0; background-color: #F2F2F2; padding: 0px 6px 6px 6px;width:730px;overflow: auto;}
+.sql a:link {color: #000060;text-decoration: underline;}
+.sql a:hover {background-color: #f0f000;}
+.sql .head {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-bottom: 1px solid #d0d0d0; width:730px;overflow: auto;}
+.sql .foot {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-top: 1px solid #d0d0d0; width:730px;overflow: auto;}
+.sql .imp {font-weight: bold; color: red;}
+.sql li {font-family: 'Courier New', Courier, monospace; color: black; font-weight: normal; font-style: normal;font: normal normal 100% 'Courier New', Courier, monospace; color: #003030;}
+.sql li.li2 {font-weight: bold;font-weight: bold; color: #006060;}
+.sql .kw1 {color: #993333; font-weight: bold;}
+.sql .co1 {color: #FF6600; font-style: italic;}
+.sql .co2 {color: #808080; font-style: italic;}
+.sql .coMULTI {color: #808080; font-style: italic;}
+.sql .es0 {color: #000099; font-weight: bold;}
+.sql .br0 {color: #66cc66;}
+.sql .st0 {color: #ff0000;}
+.sql .nu0 {color: #ff0000;}
+
+
+
+.php .de1, .php .de2 {font-family: 'Courier New', Courier, monospace; font-weight: normal;color: #0000FF;}
+.php  {color: #000066; font-size:12px; border: 1px solid #d0d0d0; background-color: #F2F2F2;padding: 0px 6px 6px 6px; width:730px;overflow: auto;}
+.php a:link {color: #000060;text-decoration: underline;}
+.php a:hover {background-color: #f0f000;}
+.php .head {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-bottom: 1px solid #d0d0d0; padding: 2px;}
+.php .foot {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-top: 1px solid #d0d0d0; padding: 2px;}
+.php .imp {font-weight: bold; color: red;}
+.php li {font-family: 'Courier New', Courier, monospace; color: black; font-weight: normal; font-style: normal;font: normal normal 95% 'Courier New', Courier, monospace; color: #003030;}
+.php li.li2 {font-weight: bold;font-weight: bold; color: #006060;}
+.php .kw1 {color: #b1b100;}
+.php .kw2 {color: #ff0000; font-weight: bold;}
+.php .kw3 {color: #0000FF; text-decoration: underline;}
+.php .co1 {color: #FF6600; font-style: italic;}
+.php .co2 {color: #808080; font-style: italic;}
+.php .coMULTI {color: #FF6600; font-style: italic;}
+.php .es0 {color: #000099; font-weight: bold;}
+.php .br0 {color: #0000FF;}
+.php .st0 {color: #ff0000;}
+.php .nu0 {color: #ff0000;}
+.php .me1 {color: #006600;}
+.php .me2 {color: #006600;}
+.php .re0 {color: #000000;}
+.php .re1 {color: #ff0000}
+
+
+.html4strict .de1, .html4strict .de2 {font-family: 'Courier New', Courier, monospace; font-weight: normal;color: #000020;}
+.html4strict  {color: #000066; font-size:12px; border: 1px solid #d0d0d0; background-color: #f0f0f0;padding: 0px 6px 6px 6px; width:730px;overflow: auto;}
+.html4strict a:link {color: #000060;text-decoration: underline;}
+.html4strict a:hover {background-color: #f0f000;}
+.html4strict .head {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-bottom: 1px solid #d0d0d0; padding: 2px;}
+.html4strict .foot {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-top: 1px solid #d0d0d0; padding: 2px;}
+.html4strict .imp {font-weight: bold; color: red;}
+.html4strict li {font-family: 'Courier New', Courier, monospace; color: black; font-weight: normal; font-style: normal;font: normal normal 95% 'Courier New', Courier, monospace; color: #003030;}
+.html4strict li.li2 {font-weight: bold;font-weight: bold; color: #006060;}
+.html4strict .kw1 {color: #b1b100;}
+.html4strict .kw2 {color: #000000; font-weight: bold;}
+.html4strict .kw3 {color: #000066;}
+.html4strict .coMULTI {color: #808080; font-style: italic;}
+.html4strict .es0 {color: #000099; font-weight: bold;}
+.html4strict .br0 {color: #66cc66;}
+.html4strict .st0 {color: #ff0000;}
+.html4strict .nu0 {color: #cc66cc;}
+.html4strict .sc0 {color: #00bbdd;}
+.html4strict .sc1 {color: #ddbb00;}
+.html4strict .sc2 {color: #009900;}
+
+.smarty .de1, .smarty .de2 {font-family: 'Courier New', Courier, monospace; font-weight: normal;color: #000020;}
+.smarty {color: #000066; font-size:12px; border: 1px solid #d0d0d0; background-color: #f0f0f0;padding: 0px 6px 6px 6px; width:730px;overflow: auto;}
+.smarty a:link {color: #000060;}
+.smarty a:hover {background-color: #f0f000;}
+.smarty .head {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-bottom: 1px solid #d0d0d0; padding: 2px;}
+.smarty .foot {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-top: 1px solid #d0d0d0; padding: 2px;}
+.smarty .imp {font-weight: bold; color: red;}
+.smarty li {font-family: 'Courier New', Courier, monospace; color: black; font-weight: normal; font-style: normal;font: normal normal 95% 'Courier New', Courier, monospace; color: #003030;}
+.smarty li.li2 {font-weight: bold;font-weight: bold; color: #006060;}
+.smarty .kw1 {color: #0600FF;}
+.smarty .kw2 {color: #008000;}
+.smarty .kw3 {color: #0600FF;}
+.smarty .kw4 {color: #804040;}
+.smarty .kw5 {color: #008000;}
+.smarty .kw6 {color: #6A0A0A;}
+.smarty .kw7 {color: #D36900;}
+.smarty .coMULTI {color: #008080; font-style: italic;}
+.smarty .es0 {color: #000099; font-weight: bold;}
+.smarty .br0 {color: #D36900;}
+.smarty .st0 {color: #ff0000;}
+.smarty .nu0 {color: #cc66cc;}
+.smarty .me1 {color: #006600;}
+
+
+.mysql .de1, .mysql .de2 {font-family: 'Courier New', Courier, monospace; font-weight: normal;color: #000020;}
+.mysql  {color: #000066; font-size:12px; border: 1px solid #d0d0d0; background-color: #f0f0f0; padding: 0px 6px 6px 6px; width:730px;overflow: auto;}
+.mysql a:link {color: #000060;}
+.mysql a:hover {background-color: #f0f000;}
+.mysql .head {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-bottom: 1px solid #d0d0d0; padding: 2px;}
+.mysql .foot {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-top: 1px solid #d0d0d0; padding: 2px;}
+.mysql .imp {font-weight: bold; color: red;}
+.mysql li {font-family: 'Courier New', Courier, monospace; color: black; font-weight: normal; font-style: normal;font: normal normal 95% 'Courier New', Courier, monospace; color: #003030;}
+.mysql li.li2 {font-weight: bold;font-weight: bold; color: #006060;}
+.mysql .kw1 {color: #993333; font-weight: bold;}
+.mysql .kw2 {color: #aa9933; font-weight: bold;}
+.mysql .kw3 {color: #aa3399; font-weight: bold;}
+.mysql .kw4 {color: #33aa99; font-weight: bold;}
+.mysql .kw5 {color: #993333; font-weight: bold;}
+.mysql .coMULTI {color: #808080; font-style: italic;}
+.mysql .co1 {color: #808080; font-style: italic;}
+.mysql .co2 {color: #808080; font-style: italic;}
+.mysql .es0 {color: #000099; font-weight: bold;}
+.mysql .br0 {color: #66cc66;}
+.mysql .st0 {color: #ff0000;}
+.mysql .nu0 {color: #cc66cc;}
+
+.javascript .de1, .javascript .de2 {font-family: 'Courier New', Courier, monospace; font-weight: normal;color: #000020;}
+.javascript  {color: #000066; font-size:12px; border: 1px solid #d0d0d0; background-color: #f0f0f0; padding: 0px 6px 6px 6px; width:730px;overflow: auto;}
+.javascript a:link {color: #000060;}
+.javascript a:hover {background-color: #f0f000;}
+.javascript .head {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-bottom: 1px solid #d0d0d0; padding: 2px;}
+.javascript .foot {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-top: 1px solid #d0d0d0; padding: 2px;}
+.javascript .imp {font-weight: bold; color: red;}
+.javascript li {font-family: 'Courier New', Courier, monospace; color: black; font-weight: normal; font-style: normal;font: normal normal 95% 'Courier New', Courier, monospace; color: #003030;}
+.javascript li.li2 {font-weight: bold;font-weight: bold; color: #006060;}
+.javascript .kw1 {color: #000066; font-weight: bold;}
+.javascript .kw2 {color: #003366; font-weight: bold;}
+.javascript .kw3 {color: #990099;}
+.javascript .co1 {color: #009900; font-style: italic;}
+.javascript .coMULTI {color: #009900; font-style: italic;}
+.javascript .es0 {color: #000099; font-weight: bold;}
+.javascript .br0 {color: #66cc66;}
+.javascript .st0 {color: #3366CC;}
+.javascript .nu0 {color: #CC0000;}
+.javascript .me1 {color: #006600;}
+.javascript .re0 {color: #0066FF;}
+
+
+.apache .de1, .apache .de2 {font-family: 'Courier New', Courier, monospace; font-weight: normal;color: #000020;}
+.apache  {color: #000066; font-size:12px; border: 1px solid #d0d0d0; background-color: #f0f0f0; padding: 0px 6px 6px 6px; width:730px;overflow: auto;}}
+.apache a:link {color: #000060;}
+.apache a:hover {background-color: #f0f000;}
+.apache .head {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-bottom: 1px solid #d0d0d0; padding: 2px;}
+.apache .foot {font-family: Verdana, Arial, sans-serif; color: #808080; font-size: 10px; font-weight: bold; background-color: #f0f0ff; border-top: 1px solid #d0d0d0; padding: 2px;}
+.apache .imp {font-weight: bold; color: red;}
+.apache li {font-family: 'Courier New', Courier, monospace; color: black; font-weight: normal; font-style: normal;font: normal normal 95% 'Courier New', Courier, monospace; color: #003030;}
+.apache li.li2 {font-weight: bold;font-weight: bold; color: #006060;}
+.apache .kw1 {color: #00007f;}
+.apache .kw2 {color: #0000ff;}
+.apache .co1 {color: #adadad; font-style: italic;}
+.apache .es0 {color: #000099; font-weight: bold;}
+.apache .br0 {color: #66cc66;}
+.apache .st0 {color: #7f007f;}
+.apache .nu0 {color: #ff0000;}

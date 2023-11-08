@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"><head><title>Revista PHP - Gerando PDF com PHP</title>
+
+
+
+	<meta name="resource-types" content="document">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta name="revisit-after" content="1">
+	<meta name="classification" content="Internet">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="Description" content="Revista PHP é a primeira revista do Brasil criada para desenvolvedores PHP.">
+	<meta name="Keywords" content=" php, php4, php5, php6, smart, phpeclipse,zend,zend2, java, sql, mysql, postgresql, oracle,oci, phpmagazine, javascript, css, XHTML HTML, tableless, revista, magazine, XML, postgres, Zend Framework">
+	<meta name="robots" content="ALL">
+	<meta name="distribution" content="Global">
+	<meta name="ICBM" content="-20.2982,-40.3298">
+	<meta name="DC.title" content="Revista PHP">
+	<meta name="rating" content="General">
+	<meta name="author" content="Revista PHP">
+	<meta name="language" content="pt-br">
+	<meta name="doc-class" content="Completed">
+
+	<meta name="doc-rights" content="Public">
+	<link rel="shortcut icon" href="http://www.revistaphp.com.br/ico/favicon.ico">
+	
+
+	<link rel="stylesheet" type="text/css" href="Gerando%20PDF%20com%20PHP_arquivos/artigos.css">
+
+	<link rel="stylesheet" type="text/css" href="Gerando%20PDF%20com%20PHP_arquivos/artigo.css">
+
+    <style type="text/css">
+<!--
+.style1 {color: #FF6600}
+.style3 {color: #000033}
+.style2 {color: #FF6600}
+.style4 {color: #F0F0F0}
+.style5 {color: #669900}
+#Layer2 {
+	position:absolute;
+	left:16px;
+	top:147px;
+	width:565px;
+	height:27px;
+	z-index:2;
+}
+
+-->
+    </style>
+    <script type="text/JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+    </script><script charset="utf-8" id="injection_graph_func" src="Gerando%20PDF%20com%20PHP_arquivos/injection_graph_func.js"></script></head><body>
+	
+	<div id="web">
+<script>
+//Verificar se a resolução vídeo for > 800 X 600
+if(screen.width > 800)
+{
+	document.write ('<div style="display: block;" id="barradireita" >');
+	document.write ('<div class="BarraBox" >');
+	document.write ('<h2><a href="http://www.revistaphp.com.br/"><span>Revista PHP</span></a></h2>');
+	document.write ('<ul><li>')
+	document.write ('<iframe name="topo" width="160" height="600" src="barra1.php" framespacing="0" frameborder="no" scrolling="no"  allowtransparency="true" marginwidth="0" marginheight="0">')
+	document.write ('</iframe>')
+	document.write ('</li></ul>')
+	document.write ('</div>');
+	document.write ('</div>');
+}
+
+</script><div style="display: block;" id="barradireita"><div class="BarraBox"><h2><a href="http://www.revistaphp.com.br/"><span>Revista PHP</span></a></h2><ul><li><iframe name="topo" src="Gerando%20PDF%20com%20PHP_arquivos/barra1.htm" framespacing="0" allowtransparency="true" marginwidth="0" marginheight="0" frameborder="no" height="600" scrolling="no" width="160"></iframe></li></ul></div></div> 
+	 <div id="publicidade">
+	  <a href="http://tehospedo.com.br/?xind=revistaphp.com.br" target="_blank"><img style="display: none;" src="Gerando%20PDF%20com%20PHP_arquivos/banner_revistaPHP.gif" border="0" height="90" width="728"></a>
+</div>
+<div id="toporevista">
+			<a href="http://www.revistaphp.com.br/index.php" id="logo"><img src="Gerando%20PDF%20com%20PHP_arquivos/logo.gif" alt="Revista PHP" img="" border="0" height="93" width="246"></a>
+			<a href="http://www.revistaphp.com.br/index.php" id="banner"><img style="display: none;" src="Gerando%20PDF%20com%20PHP_arquivos/banner120.gif" alt="Revista PHP" onclick="MM_openBrWindow('upload.php','artigo','width=400,height=280')" img="" border="0" height="60" width="120"></a>
+
+			<form method="get" action="artigos_resultado.php" name="form_search" id="buscador">
+				Palavra:&nbsp;&nbsp;&nbsp; 
+				<input name="p" size="38" maxlength="255" style="border: 1px solid rgb(153, 153, 153);" value="" id="sbi" class="form_search_input" type="text"><img title="Max field length is 255" style="border: 0pt none ; width: 14px; height: 19px; cursor: pointer;" class="ife_marker" src="Gerando%20PDF%20com%20PHP_arquivos/marker.png" id="p_ife_marker_0" align="absmiddle">
+				<label> <br>
+				Categoria:
+                <select name="c" class="form_search_select" id="c" style="border: 1px solid rgb(153, 153, 153); width: 120px;">
+
+				  <option value="0">Selecione...</option>
+<option value="6">Acessibilidade</option><option value="2">AJAX</option><option value="3">Banco de Dados</option><option value="4">CSS</option><option value="15">Frameworks</option><option value="13">GTK</option><option value="16">IDEs</option><option value="8">Java Script</option><option value="17">Miscelânea </option><option value="10">MySQL</option><option value="11">Oracle</option><option value="1">PHP</option><option value="14">Segurança</option><option value="7">Tableless </option><option value="12">Templates</option><option value="9">XHTML</option><option value="5">XML</option>	            </select>
+				</label>
+			  <label>
+					<input name="buscar" src="Gerando%20PDF%20com%20PHP_arquivos/btn-buscar.gif" type="image">
+			  </label>
+			</form>		
+</div><div id="Destaque">
+			<div id="Cabecalho">
+ 	<h2>Revista PHP  /  PHP</h2>
+				
+	            <ul class="submenu">
+		<li class="texto"><strong>Publicado:  03/07/2007</strong></li>
+        <li class="ultimo-lista"><a href="http://www.revistaphp.com.br/colaborador.php?cduser=496"> Ver todos artigos</a></li>
+</ul>
+					<div id="DestaqueFundo">
+					
+		<div class="DestaqueTexto">
+			<div>
+   	
+   <a href="http://www.revistaphp.com.br/colaborador.php?cduser=496" class="imagem"><img class="imagem" src="Gerando%20PDF%20com%20PHP_arquivos/496.jpg" title="Alexandre Oliveira" border="0" height="75" width="65"></a>				
+	<h3>Alexandre Oliveira</h3>
+	<p class="descricao-corta">Técnico
+em informática com especialização em montagem e manutenção
+decomputadores, Desenvolvimento de Sistemas, Comunicação de Dados,
+acadêmico de Desenvolvimento de Sistemas Web - CEFET-TO), conhecimentos
+em aplicações web... com ênfase na Linguagem PHP e banco de dados
+mysql.. Atualmente utilizando AJAX.</p>	
+				
+		  </div>		
+		</div>			
+		</div>			
+	</div>
+			
+	  </div>
+	  
+		<div id="opcoes_artigos">
+		  <div id="interacao">
+		    <ul class="submenu"><script type="text/javascript"><!--
+google_ad_client = "pub-1912416589418666";
+google_ad_width = 728;
+google_ad_height = 15;
+google_ad_format = "728x15_0ads_al";
+google_ad_channel = "";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "006699";
+google_color_text = "000000";
+google_color_url = "008000";
+//-->
+</script>
+<script style="display: none;" type="text/javascript" src="barra1_data/show_ads.js">
+</script>
+            </ul>
+		  </div>
+		</div>
+		
+		<div id="novidades-foro">
+			<div id="novidades">
+				<h2>Gerando PDF com PHP</h2>
+			
+		
+				<div id="novidades-content">
+			    <div class="descricao">
+				Olá leitores da Revista PHP, os comentários estão no próprio script.<br>
+<br>
+<pre style="border: 1px solid rgb(208, 208, 208); color: rgb(0, 0, 102); background-color: rgb(240, 240, 240);" class="php"><div class="head">PHP</div><ol><li class="li1"><div class="de1"><span class="kw2">&lt;?php</span> </div></li><li class="li1"><div class="de1"><span class="coMULTI">/*</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">Olá Amigos, hoje iremos aprender a gerar um arquivo PDF com nosso querido PHP</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">para isso , utilizaremos a  biblioteca fpdf  que se encontra em  - &gt; http://www.fpdf.org/</span></div></li><li class="li2"><div class="de2">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">Objetivo : gerar um arquivo PDF apartir do PHP em  formato de um artigo</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">caso tenha alguma duvida faça o download do manual no site do fpdf</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">já possui versões em portugues.</span></div></li><li class="li2"><div class="de2"><span class="coMULTI">os métodos aqui utilizados estao todos  explicados no final do artigo !</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">bom vamos ao trabalho !</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">*/</span></div></li><li class="li1"><div class="de1"><span class="co1">//incluindo o arquivo do fpdf</span></div></li><li class="li2"><div class="de2"><span class="kw1">require_once</span><span class="br0">(</span><span class="st0">"fpdf/fpdf.php"</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="co1">//defininfo a fonte !</span></div></li><li class="li1"><div class="de1"><a href="http://www.php.net/define" target="_blank"><span class="kw3">define</span></a><span class="br0">(</span><span class="st0">'FPDF_FONTPATH'</span>,<span class="st0">'fpdf/font/'</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="co1">//instancia a classe.. P=Retrato, mm =tipo de medida utilizada no casso milimetros, tipo de folha =A4</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>= <span class="kw2">new</span> FPDF<span class="br0">(</span><span class="st0">"P"</span>,<span class="st0">"mm"</span>,<span class="st0">"A4"</span><span class="br0">)</span>;</div></li><li class="li2"><div class="de2"><span class="co1">//define a fonte  a ser usada</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">SetFont</span><span class="br0">(</span><span class="st0">'arial'</span>,<span class="st0">''</span>,<span class="nu0">10</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="co1">//define o titulo </span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">SetTitle</span><span class="br0">(</span><span class="st0">"Testando PDF com PHP !"</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="co1">//assunto </span></div></li><li class="li2"><div class="de2"><span class="re0">$pdf</span>-&gt;<span class="me1">SetSubject</span><span class="br0">(</span><span class="st0">"assunto deste artigo!"</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="co1">// posicao vertical no caso -1.. e o limite da margem</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">SetY</span><span class="br0">(</span><span class="st0">"-1"</span><span class="br0">)</span>; </div></li><li class="li1"><div class="de1"><span class="re0">$titulo</span>=<span class="st0">"Titulo do Artigo"</span>;</div></li><li class="li1"><div class="de1"><span class="co1">//escreve no pdf largura,altura,conteudo,borda,quebra de linha,alinhamento</span></div></li><li class="li2"><div class="de2"><span class="re0">$pdf</span>-&gt;<span class="me1">Cell</span><span class="br0">(</span><span class="nu0">0</span>,<span class="nu0">5</span>,<span class="re0">$titulo</span>,<span class="nu0">0</span>,<span class="nu0">0</span>,<span class="st0">'L'</span><span class="br0">)</span>; </div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">Cell</span><span class="br0">(</span><span class="nu0">0</span>,<span class="nu0">5</span>,<span class="st0">'http://www.seusite.com.br'</span>,<span class="nu0">0</span>,<span class="nu0">1</span>,<span class="st0">'R'</span><span class="br0">)</span>; </div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">Cell</span><span class="br0">(</span><span class="nu0">0</span>,<span class="nu0">0</span>,<span class="st0">''</span>,<span class="nu0">1</span>,<span class="nu0">1</span>,<span class="st0">'L'</span><span class="br0">)</span>; </div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">Ln</span><span class="br0">(</span><span class="nu0">8</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="co1">//hora do conteudo do artigo</span></div></li><li class="li2"><div class="de2"><span class="re0">$pdf</span>-&gt;<span class="me1">SetFont</span><span class="br0">(</span><span class="st0">'arial'</span>,<span class="st0">''</span>,<span class="nu0">8</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="re0">$novo</span>=<span class="st0">"A Agência Nacional de Aviação Civil (Anac) informou, nesta segunda-feira (2), que vai investigar se as companhias áereas têm culpa pelos atrasos e cancelamentos registrados durante o fim de semana. </span></div></li><li class="li1"><div class="de1"><span class="st0">No sábado (30), o percentual de vôos com mais de uma hora de atrasos chegou a 45,2%. No domingo (1º), até as 19h30, 36% dos vôos tiveram atrasos.</span></div></li><li class="li1"><div class="de1"><span class="st0">"</span>; </div></li><li class="li1"><div class="de1"><span class="co1">//posiciona verticalmente 21mm</span></div></li><li class="li2"><div class="de2"><span class="re0">$pdf</span>-&gt;<span class="me1">SetY</span><span class="br0">(</span><span class="st0">"21"</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="co1">//posiciona horizontalmente 30mm</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">SetX</span><span class="br0">(</span><span class="st0">"30"</span><span class="br0">)</span>; </div></li><li class="li1"><div class="de1"><span class="co1">//escreve o conteudo de novo.. parametros posicao inicial,altura,conteudo(*texto),borda,quebra de linha,alinhamento</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">MultiCell</span><span class="br0">(</span><span class="nu0">0</span>,<span class="nu0">5</span>,<span class="re0">$novo</span>,<span class="nu0">0</span>,<span class="nu0">1</span>,<span class="st0">'J'</span><span class="br0">)</span>; </div></li><li class="li2"><div class="de2">&nbsp;</div></li><li class="li1"><div class="de1"><span class="re0">$novo</span>=<span class="st0">"</span></div></li><li class="li1"><div class="de1"><span class="st0">Nesta segunda-feira, a situação começou a se normalizar, mas ainda há registro de problemas. Até as 10h, dos 623 vôos previstos nos 13 principais aeroportos brasileiros, 126 tiveram atrasos de mais de uma hora, segundo balanço divulgado pela Infraero, a estatal que administra os terminais aéreos. O número equivale a 20,2% do total. Quarenta e seis decolagens foram canceladas (7,3%).</span></div></li><li class="li1"><div class="de1"><span class="st0">Os terminais que tiveram maiores percentuais de atrasos foram os do Recife (PE) e de Fortaleza (CE). Na Capital de Pernambuco, oito dos 24 vôos marcados até as 10h atrasaram mais de uma hora (33,3% do total). No terminal cearense, oito das 25 partidas ocorreram fora </span></div></li><li class="li1"><div class="de1"><span class="st0">O terminal que registrou maior índice de cancelamentos foi o de Curitiba (PR). Das 22 decolagens programadas, quatro foram canceladas (18,1%).</span></div></li><li class="li2"><div class="de2"><span class="st0">A assessoria de Infraero informa que os atrasos são conseqüência dos transtornos do fim de semana. Muitos vôos tiveram que ser remarcados para o início desta semana.</span></div></li><li class="li1"><div class="de1"><span class="st0">Previsão - O presidente da Infraero, brigadeiro José Carlos Pereira, também foi prejudicado pela crise aérea. Ele tinha uma viagem marcada de Brasília para o Rio às 7h desta segunda, mas o avião só decolou às 9h59. </span></div></li><li class="li1"><div class="de1"><span class="st0">Apesar do transtorno, ele disse que as operações estão ocorrendo normalmente nos principais aeroportos do país e a situação deve se normalizar até as 14h. </span></div></li><li class="li1"><div class="de1"><span class="st0">"</span>;</div></li><li class="li1"><div class="de1"><span class="co1">//posiciona verticalmente 41mm</span></div></li><li class="li2"><div class="de2"><span class="re0">$pdf</span>-&gt;<span class="me1">SetY</span><span class="br0">(</span><span class="st0">"41"</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="co1">//posiciona horizontalmente 10mm</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">SetX</span><span class="br0">(</span><span class="st0">"10"</span><span class="br0">)</span>; </div></li><li class="li1"><div class="de1"><span class="co1">//escreve o conteudo de novo.. parametros posicao inicial,altura,conteudo(*texto),borda,quebra de linha,alinhamento</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">MultiCell</span><span class="br0">(</span><span class="nu0">0</span>,<span class="nu0">5</span>,<span class="re0">$novo</span>,<span class="nu0">0</span>,<span class="nu0">1</span>,<span class="st0">'J'</span><span class="br0">)</span>; </div></li><li class="li2"><div class="de2">&nbsp;</div></li><li class="li1"><div class="de1"><span class="co1">//endereco da imagem,posicao X(horizontal),posicao Y(vertical), tamanho altura, tamanho largura</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">Image</span><span class="br0">(</span><span class="st0">"teste.jpg"</span>, <span class="nu0">8</span>,<span class="nu0">20</span>,<span class="nu0">20</span>,<span class="nu0">20</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="coMULTI">/*******definindo o rodapé*************************/</span></div></li><li class="li1"><div class="de1"><span class="co1">//posiciona verticalmente 270mm</span></div></li><li class="li2"><div class="de2"><span class="re0">$pdf</span>-&gt;<span class="me1">SetY</span><span class="br0">(</span><span class="st0">"270"</span><span class="br0">)</span>; </div></li><li class="li1"><div class="de1"><span class="co1">//data atual</span></div></li><li class="li1"><div class="de1"><span class="re0">$data</span>=<a href="http://www.php.net/date" target="_blank"><span class="kw3">date</span></a><span class="br0">(</span><span class="st0">"d/m/Y"</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="re0">$conteudo</span>=<span class="st0">"criado em "</span>.<span class="re0">$data</span>;</div></li><li class="li1"><div class="de1"><span class="re0">$texto</span>=<span class="st0">"por Alexandre Oliveira"</span>;</div></li><li class="li2"><div class="de2">&nbsp;</div></li><li class="li1"><div class="de1"><span class="co1">//imprime uma celula... largura,altura, texto,borda,quebra de linha, alinhamento</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">Cell</span><span class="br0">(</span><span class="nu0">0</span>,<span class="nu0">0</span>,<span class="st0">''</span>,<span class="nu0">1</span>,<span class="nu0">1</span>,<span class="st0">'L'</span><span class="br0">)</span>; </div></li><li class="li1"><div class="de1"><span class="co1">//imprime uma celula... largura,altura, texto,borda,quebra de linha, alinhamento</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">Cell</span><span class="br0">(</span><span class="nu0">0</span>,<span class="nu0">5</span>,<span class="re0">$texto</span>,<span class="nu0">0</span>,<span class="nu0">0</span>,<span class="st0">'L'</span><span class="br0">)</span>; </div></li><li class="li2"><div class="de2"><span class="co1">//imprime uma celula... largura,altura, texto,borda,quebra de linha, alinhamento</span></div></li><li class="li1"><div class="de1"><span class="re0">$pdf</span>-&gt;<span class="me1">Cell</span><span class="br0">(</span><span class="nu0">0</span>,<span class="nu0">5</span>,<span class="re0">$conteudo</span>,<span class="nu0">0</span>,<span class="nu0">1</span>,<span class="st0">'R'</span><span class="br0">)</span>; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="co1">//imprime a saida do arquivo..</span></div></li><li class="li2"><div class="de2"><span class="re0">$pdf</span>-&gt;<span class="me1">Output</span><span class="br0">(</span><span class="st0">"arquivo"</span>,<span class="st0">"I"</span><span class="br0">)</span>;</div></li><li class="li1"><div class="de1"><span class="coMULTI">/*</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">agora imaginem que estes dados viessem do banco de dados ?</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">que maravilha hein ! seus artigos convertidos em pdf dinamicamente hein?</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">************************************************************************</span></div></li><li class="li2"><div class="de2">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">REFERENCIAS : </span></div></li><li class="li1"><div class="de1"><span class="coMULTI">FPDF - &gt;Esta é o construtor da classe. Ele permite que seja definido o formato da página, a orientação e a unidade de medida usada em todos os métodos (exeto para tamanhos de fonte). </span></div></li><li class="li1"><div class="de1"><span class="coMULTI">utilizacao : FPDF([string orientation [, string unit [, mixed format]]]) </span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li2"><div class="de2"><span class="coMULTI">SetFont -&gt; Define a fonte que será usada para imprimir os caracteres de texto. É obrigatória a chamada, ao menos uma vez, deste método antes de imprimir o texto ou o documento resultante não será válido. </span></div></li><li class="li1"><div class="de1"><span class="coMULTI">utilizacao : SetFont(string family [, string style [, float size]]) </span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">SetTitle - &gt;Define o título do documento. </span></div></li><li class="li1"><div class="de1"><span class="coMULTI">utilizacao : SetTitle(string title) </span></div></li><li class="li2"><div class="de2">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">SetSubject -&gt; Define o assunto do documento</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">utilizacao : SetSubject(string subject)</span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">SetX - &gt;Define a abscissa da posição corrente. Se o valor passado for negativo, ele será relativo à margem direita da página.</span></div></li><li class="li2"><div class="de2"><span class="coMULTI">utilizacao : SetX(float x) </span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">SetY - &gt; Move a abscissa atual de volta para margem esquerda e define a ordenada. Se o valor passado for negativo, ele será relativo a margem inferior da página. </span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">utilizacao : SetY(float y) </span></div></li><li class="li2"><div class="de2">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">Cell - &gt; Imprime uma célula (área retangular) com bordas opcionais, cor de fundo e texto. O canto superior-esquerdo da célula corresponde à posição atual. O texto pode ser alinhado ou centralizado. Depois de chamada, a posição atual se move para a direita ou para a linha seguinte. É possível pôr um link no texto. </span></div></li><li class="li1"><div class="de1"><span class="coMULTI">Se a quebra de página automática está habilitada e a pilha for além do limite, uma quebra de página é feita antes da impressão. </span></div></li><li class="li1"><div class="de1"><span class="coMULTI">utilizacao - &gt;Cell(float w [, float h [, string txt [, mixed border [, int ln [, string align [, int fill [, mixed link]]]]]]]) </span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li2"><div class="de2"><span class="coMULTI">Ln - &gt; Faz uma quebra de linha. A abscissa corrente volta para a margem esquerda e a ordenada é somada ao valor passado como parâmetro. </span></div></li><li class="li1"><div class="de1"><span class="coMULTI">utilizacao -&gt;Ln([float h]) </span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">MultiCell - &gt; Este método permite imprimir um texto com quebras de linha. Podem ser automática (assim que o texto alcança a margem direita da célula) ou explícita (através do caracter \n). Serão geradas tantas células quantas forem necessárias, uma abaixo da outra. </span></div></li><li class="li1"><div class="de1"><span class="coMULTI">O texto pode ser alinhado, centralizado ou justificado. O bloco de células podem ter borda e um fundo colorido. </span></div></li><li class="li2"><div class="de2"><span class="coMULTI">utilizacao : MultiCell(float w, float h, string txt [, mixed border [, string align [, int fill]]]) </span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">Image -&gt;Coloca uma imagem na página - tipos suportados JPG PNG</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">utilizacao : Image(string file, float x, float y [, float w [, float h [, string type [, mixed link]]]]) </span></div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li2"><div class="de2">&nbsp;</div></li><li class="li1"><div class="de1"><span class="coMULTI">Bom mais uma vez.. agradeço se for útil..</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">qualquer dúvida: alexandre.etf@gmail.com !</span></div></li><li class="li1"><div class="de1"><span class="coMULTI">*/</span></div></li><li class="li1"><div class="de1"> <span class="kw2">?&gt;</span></div></li></ol><div class="foot">www.revistaphp.com.br</div></pre>
+Abraço a todos e até a próxima.<br>
+Alexandre </div></div>																																																																										
+			</div>
+			
+		</div>
+		
+		
+		<div id="opcoes_artigos">
+		  <div id="interacao">
+				<h2 align="left">Opções de Interação </h2>
+				
+                <div align="center">
+                  <ul class="submenu">	
+                            <div align="left"><img src="Gerando%20PDF%20com%20PHP_arquivos/comentar.gif" style="cursor: pointer;" title="Comentar" onclick="MM_openBrWindow('pop_comentar.php?id=145','comentario','width=420,height=220')" height="21" width="100">
+                              <span class="activa"><img src="Gerando%20PDF%20com%20PHP_arquivos/colunista.gif" onclick="MM_openBrWindow('popups/colunista.php?c=496','colunista','width=400,height=200')" title="Fale com o colunista" style="cursor: pointer;" height="21" width="165"> </span><span class="activa"><img src="Gerando%20PDF%20com%20PHP_arquivos/indicar.gif" onclick="MM_openBrWindow('popups/indicacao.php?id=145','colunista','width=400,height=200')" title="Indicar artigo" height="21" width="120"></span> <a href="http://www.revistaphp.com.br/print.php?id=145" target="_blank"><img src="Gerando%20PDF%20com%20PHP_arquivos/imprimir.gif" style="cursor: pointer;" title="Versão de impressão" height="21" width="90"></a> <a href="http://groups.google.com.br/group/listaphp" target="_blank"><img src="Gerando%20PDF%20com%20PHP_arquivos/duvidas.gif" title="Lista PHP Google" height="21" width="90"></a> 
+							   
+							   <img src="Gerando%20PDF%20com%20PHP_arquivos/favoritos.gif" style="cursor: pointer;" title="Adicionar aos Favoritos" onclick="MM_openBrWindow('pop_favoritos.php?id=145&acao=add','favoritos','width=420,height=220')" height="21" width="150">
+							  							  </div>
+                            <li class="activa"></li>
+<li class="activa">&nbsp;</li>
+</ul>
+            </div>
+              <ul class="submenu">
+            </ul>
+		  </div>
+		</div>
+	<div id="novidades-foro">
+			<div id="novidades">
+				<h2>Comentários</h2>
+				
+	            <ul class="submenu">	
+		<li class="activa"><a style="cursor: pointer;" onclick="MM_openBrWindow('pop_comentar.php?id=145','comentario','width=420,height=220')">Incluir Comentário  </a></li>
+<li class="ultimo-lista"><a href="#"> Ver todos </a></li>
+<li class="activa"></li></ul>
+		
+				<div id="novidades-content">
+			    <div class="descricao">
+				  </div>
+				</div>																																																																										
+			</div>
+			
+	  </div>
+	  <div id="final"><a href="http://www.revistaphp.com.br/index.php"><img src="Gerando%20PDF%20com%20PHP_arquivos/logo.gif" border="0" height="93" width="246"></a>
+</div>
+		
+</div>
+	<script src="Gerando%20PDF%20com%20PHP_arquivos/urchin.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		_uacct = "UA-313498-1";
+		urchinTracker();
+	</script>
+</body></html>

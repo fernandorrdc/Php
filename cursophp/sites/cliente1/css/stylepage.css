@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+main{
+    background-color: rgb(255, 255, 255);
+
+}
+
+#top {
+    background-color: rgba(165, 185, 223, 0.861);
+
+}
+
+
+img.d-block {
+
+    width: 80vw;
+    height: 40ch;
+    margin: auto;
+
+
+
+}
+
+.col > img{
+
+    width: 12vw;
+    height:12ch;
+    padding:0vw;
+    margin: 0ch;
+}
+
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+    section{
+        background-color: #ffffff;
+
+}
+
+    #tb {
+        background-color: aliceblue;
+    }

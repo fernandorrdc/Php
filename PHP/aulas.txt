@@ -1,0 +1,13 @@
+aula 1 -- apresentação
+             av nível
+aula 2 - modelo cliente servidor
+       - organização e funcionamento da internet
+aula 3 - orgaos gestores da internet
+         organização da net brasileira
+  -- conceito de dominios para a internet
+aula 4 ---dns
+       --- aula no laboratório....principios de aps
+            exercicios
+aula 5 - primeira avaliação
+
+aula 6-- 

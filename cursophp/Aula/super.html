@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para envio PHP</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Formulário de Envio</h1>
+    </header>
+    <section>
+
+        <form action="superglobais.php?Nome=Fernando&Sobrenome=Ricardo" method="post">
+            
+            <label for="id">ID:</label>
+            <input type="text" name="id" id="iid" required placeholder="Informe ID">
+
+            <label for="sen">Senha:</label>
+            <input type="password" name="sen" id="isen" required>
+
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        
+        </form>
+    </section>
+    
+</body>
+</html>
