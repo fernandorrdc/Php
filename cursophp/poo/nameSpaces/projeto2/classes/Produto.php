@@ -6,4 +6,3 @@ class Produto {
         echo "Preço do produto: R$ " . $preco;
     }
 }
-?>

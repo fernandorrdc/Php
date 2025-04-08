@@ -20,5 +20,5 @@ $produto->exibirPreco(20.12);
 echo "<br>";
 
 // Chama a função do namespace Funcoes
-$dataFormatada = formatarData('05-18-1998');
+$dataFormatada = formatarData('05-12-1998');
 echo "Data formatada: " . $dataFormatada;
