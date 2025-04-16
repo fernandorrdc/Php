@@ -1,0 +1,14 @@
+{
+    "name": "inicio/composer",
+    "description": "testando composer",
+    "require": {
+        
+        "pagseguro/pagseguro-php-sdk": "^4.2"
+    },
+    "authors": [
+        {
+            "name": "Fernando Ricardo",
+            "email": "fernandorrdc@hotmail.com"
+        }
+    ]
+}

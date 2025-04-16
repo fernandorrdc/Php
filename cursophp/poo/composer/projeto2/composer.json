@@ -1,0 +1,14 @@
+{
+    "name": "cocur/composer",
+    "description": "testando composer",
+    "require": {
+        
+        "cocur/slugify": "^4.6.0"
+    },
+    "authors": [
+        {
+            "name": "Fernando Ricardo",
+            "email": "fernandorrdc@hotmail.com"
+        }
+    ]
+}
