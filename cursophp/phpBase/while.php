@@ -9,6 +9,7 @@ O do while é útil quando é necessário executar o código dentro da estrutura
 
 
 */
+echo "Wile <br>";
 
 $i = 1;
 
@@ -17,7 +18,7 @@ while ($i <= 10) {
     $i ++;
 }
 
-echo "<br>";
+echo "<br> Do Wile";
 echo "<hr>";
 
 
